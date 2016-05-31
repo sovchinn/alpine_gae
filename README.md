@@ -1,2 +1,2 @@
 # alpine_gae
-Alpine based container with gae sdk
+Alpine based container with go, gcloud sdk and gae go sdk

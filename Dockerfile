@@ -15,3 +15,5 @@ RUN unzip -q $GAE_ZIP -d /usr/local
 RUN rm $GAE_ZIP
 
 ENV PATH $PATH:/usr/local/go_appengine/
+
+VOLUME ["/gae_key"]
