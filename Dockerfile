@@ -9,6 +9,7 @@ ENV GSDK_ZIP google-cloud-sdk-$GSDK_VER-linux-x86_64.tar.gz
 
 RUN apk --no-cache add \
       bash \
+      git \
       py-pip \
       python &&\
     pip install --upgrade pip
