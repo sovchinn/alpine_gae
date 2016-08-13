@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.7-alpine
 MAINTAINER Serge Ovchinnikov <sovchinn@gmail.com>
 
 ENV GAE_VER 1.9.40
