@@ -1,10 +1,10 @@
-FROM golang:1.7.1-alpine
+FROM golang:1.7.3-alpine
 MAINTAINER Serge Ovchinnikov <sovchinn@gmail.com>
 
-ENV GAE_VER 1.9.40
+ENV GAE_VER 1.9.46
 ENV GAE_ZIP go_appengine_sdk_linux_amd64-$GAE_VER.zip
 
-ENV GSDK_VER 125.0.0
+ENV GSDK_VER 133.0.0
 ENV GSDK_ZIP google-cloud-sdk-$GSDK_VER-linux-x86_64.tar.gz
 
 RUN apk --no-cache add \
